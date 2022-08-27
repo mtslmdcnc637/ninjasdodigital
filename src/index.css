@@ -6,6 +6,10 @@
             padding: 0;
             box-sizing: border-box;
         }
+body, :root{
+  max-height: 100vh;
+  max-width: 100vw;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,6 +17,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #aa4bd6;
 }
 
 code {

@@ -1,13 +1,26 @@
 import './App.css'
 import TopBar from './components/TopBar.js'
-import Card from './components/Card.js'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Blog from './components/pages/Blog'
+import Freelas from './components/pages/Freelas'
+import Footer from './components/Footer'
+import Jobs from './components/pages/Jobs'
+import About from './components/pages/About'
+
 
 function App() {
   return (
-    <>
-    <TopBar />
-    <Card />
-    </>
+    <Router>
+      <TopBar/>
+
+    <Routes>
+      <Route path='/components/pages/Blog' element={<Blog/>}/>
+      <Route path='/components/pages/Freelas' element={<Freelas/>}/>
+      <Route path='/components/pages/Jobs' element={<Jobs/>}/>
+      <Route path='/components/pages/About' element={<About/>}/>
+    </Routes>
+    <Footer/>
+    </Router>
   );
 }
 
