@@ -14,7 +14,7 @@ function App() {
       <TopBar/>
 
     <Routes>
-      <Route path='/components/pages/Blog' element={<Blog/>}/>
+      <Route path='/' element={<Blog/>}/>
       <Route path='/components/pages/Freelas' element={<Freelas/>}/>
       <Route path='/components/pages/Jobs' element={<Jobs/>}/>
       <Route path='/components/pages/About' element={<About/>}/>
