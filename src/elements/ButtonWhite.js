@@ -1,6 +1,7 @@
+import style from './ButtonWhite.module.css'
 function ButtonWhite (){
     return(
-        <button>Botão</button>
+        <button className={style.button}>Ver postagem</button>
     )
 }
 export default ButtonWhite

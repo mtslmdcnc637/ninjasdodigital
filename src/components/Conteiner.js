@@ -8,6 +8,8 @@ function Conteiner(){
             <Card title="Como criar senhas seguras e dificais de esquecer" content={content} category="Segurança"/>
             <Card />
             <Card />
+            <Card />
+            <Card />
         </div>
     )
     

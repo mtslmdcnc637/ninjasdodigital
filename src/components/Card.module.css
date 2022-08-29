@@ -1,9 +1,7 @@
 
 .card_box{
-    width: 30%;
-    height: 70vh;
-    min-width: 350px;
-    min-height: 400px;
+    max-width: 270px;
+    min-width: 200px;
     border-radius: 1px;
     box-shadow: 10px 10px 45px rgba(0,0,0,0.1);
     padding: 0 50px;
@@ -32,7 +30,7 @@ p{
     font-weight: 200;
 }
 svg{
-    font-size: 5em;
+    font-size: 8em;
     display: block;
     color:white;
     font-weight: 200;

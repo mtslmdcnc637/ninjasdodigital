@@ -14,7 +14,6 @@ function Card(props){
                 </div>
                 <h3>{props.title}</h3>
                 <h5>Categoria: {props.category}</h5>
-                <p>{props.content}</p>
                 <ButtonWhite/>
                 
             </div>
