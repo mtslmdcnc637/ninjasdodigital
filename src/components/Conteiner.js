@@ -1,4 +1,4 @@
-import styles from './Conteiner.module.css'
+import styles from './CSS/Conteiner.module.css'
 import Card from './Card'
 function Conteiner(){
     const content = 

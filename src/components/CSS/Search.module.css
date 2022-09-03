@@ -1,0 +1,9 @@
+.input_search{
+    width: 100%;
+    border-radius:15px;
+    margin: 0 0 1em 0;
+    background: rgba(255,255,255,0.5);
+    border: none;
+    padding: 9px;
+    color:white;
+}

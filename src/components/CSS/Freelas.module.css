@@ -1,0 +1,20 @@
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    border-radius: 30px;
+    width: 70%;
+    min-width: 600px;
+    height: 400px;
+    margin: 90px auto;   
+    box-shadow: 10px 10px 50px #4f4f4f;
+    color:black;
+
+}
+img{
+    height: 300px;
+    width: 300px;
+    min-height: 300px;
+}

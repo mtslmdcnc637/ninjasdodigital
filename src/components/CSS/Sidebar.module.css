@@ -1,0 +1,30 @@
+.sidebar_box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto; 
+    background:rgba(255,255,255,0.3);
+    border-radius: 5px;
+    align-items: center;
+    padding: 0;
+    
+}
+h4{
+    width: 100%;
+    padding: 0;
+    padding-left: 0.5em;
+    margin: 1em 0 1em 0;
+    text-align: left;
+}
+ul{
+    width: 95%;
+    margin: 0;
+    padding: 0;
+}
+.sidebar_box ul li{
+    width: 100%;
+    padding: 0.4em;
+    border-bottom: 1px solid rgba(25,25,25,0.2);
+    color:white;
+    padding-left: 1em;
+}

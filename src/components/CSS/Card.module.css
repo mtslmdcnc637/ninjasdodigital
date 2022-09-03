@@ -1,0 +1,30 @@
+
+.post{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 45px rgba(0,0,0,0.1);
+    padding: 0;
+    background:rgba(255,255,255,0.8);
+    backdrop-filter: blur(3px);   
+}
+.img_post{
+    width: 20%;
+    max-width: 25%;
+    float: left;
+    height: auto;
+    margin: 0 1em 1em 0;
+}
+.texto{
+    text-align: left;
+    padding: 2em;
+}
+.texto p{
+    font-size: 1.1em;
+    color: #4f4f4f;
+    font-weight: 500;
+}
+h1, h5{
+    text-align: left;
+    
+}

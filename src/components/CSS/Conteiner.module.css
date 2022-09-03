@@ -1,0 +1,13 @@
+.conteiner{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 100%;
+    height: auto;
+    align-content: space-around;
+    background-color: none;
+    flex-wrap: wrap;
+    
+}
